@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const medabot_builder_1 = require("./classes/medabot-builder");
+const Medabee = new medabot_builder_1.MedaBotBuilder();
+Medabee.buildBot();
+console.log(Medabee.getBot());
+console.log('Total Power:');
+console.log(Medabee.getBot().getPower());
+console.log('Total Armor:');
+console.log(Medabee.getBot().getArmor());
